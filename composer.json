@@ -1,0 +1,26 @@
+{
+    "name": "astrx/support",
+    "description": "The installation's paths, the resource roots packages register, and atomic file writes.",
+    "license": "LicenseRef-DoWhatever",
+    "type": "library",
+    "keywords": [
+        "astrx",
+        "no-javascript",
+        "server-rendered"
+    ],
+    "homepage": "https://github.com/Vxmdzhb/support",
+    "require": {
+        "php": ">=8.4"
+    },
+    "suggest": {
+        "ext-zend-opcache": "Invalidates cached PHP files immediately after a write"
+    },
+    "autoload": {
+        "psr-4": {
+            "AstrX\\Support\\": ""
+        },
+        "files": [
+            "constants.php"
+        ]
+    }
+}
